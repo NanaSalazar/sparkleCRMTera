@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico.jpg" type="image/x-icon">
+    <title>Sparkle - Consultor</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <nav>
+        <a href="#" class="menuPrincipal">MENU</a>
+        <a href="#"class="sparkle">SPARKLE</a>
+    </nav>
+<main>
+    <div class="botaoMenu">
+        <a href="index.html" class="textoBotaoMenu">HOME</a>
+    </div>
+<div class="botaoMenu">
+    <a href="solicitacoes.html" class="textoBotaoMenu">SOLICITAÇÕES</a>
+</div>
+<div class="botaoMenu">
+    <a href="clientes.html" class="textoBotaoMenu">CLIENTES</a>
+</div>
+<div class="botaoMenu">
+    <a href="consultor.html" class="textoBotaoMenu">CONSULTORES</a>
+</div>
+<div class="botaoMenu">
+    <a href="marketing.html" class="textoBotaoMenu">MARKETING</a>
+</div>
+<div id="content">
+    <h2>Cadastro de Pedido</h2>
+    <form>
+        <p class="textoCaixa">Nome do Cliente<input type="text" name="cadastroCliente" id="cadastroCliente" class="ladoEsquerdo">
+        CPF/CNPJ<input type="number" name="codigoCliente" id="codigoCliente" class="ladoDireito"></p>
+        <br>
+        <p class="textoCaixa">CEP <input type="text" name="cepCliente" id="cepCliente" class="ladoEsquerdo"> Endereço do cliente <input type="text" name="ruaCliente" id="ruaCliente" class="ladoDireito"></p>
+        <br>
+        <p class="textoCaixa">Bairro <input type="text" name="bairroCliente" id="bairroCliente" class="ladoEsquerdo">
+        Cidade <input type="text" name="cidadeCliente" id="cidadeCliente" class="ladoDireito"> Email do Cliente <input type="text" name="cidadeCliente" id="cidadeCliente" class="ladoDireito"> </p>
+        <br>
+        <p class="textoValor">Valor Total <input type="text" name="valorPedido" id="valorPedido" class="ladoEsquerdo"></p>
+        
+        <input type="button" value="Cadastrar" class="botaoCadastrar" onclick="cadastrar()">
+    </form>
+
+</div>
+</main>
+<footer>
+    <p class="textoFooter">Desenvolvido por Sparkle - Tera 2022</p>
+</footer> 
+
+</body>
+</html>
