@@ -81,14 +81,14 @@ body{
 
 /*------------ Config Principal ------------*/
 
-header{
+nav{
     background-color:var(--cor3);
     width: 100vw;
     height: 50px;
     
 }
 
-header > a {
+nav > a {
     color: white;
     text-decoration: none;
 }
@@ -187,6 +187,7 @@ footer{
     #cadastroCliente{
         width: 60vw;
         margin-bottom: 8px;
+        margin-left: 1vw;
         
     }
 
@@ -203,8 +204,9 @@ footer{
         }
 
     #ruaCliente{
-        width: 56vw;
+        width: 60vw;
         margin-bottom: 8px;
+        margin-left: 9vw;
     }
     #bairroCliente{
         width: 60vw;
@@ -220,6 +222,7 @@ footer{
     }
     #emailCliente{
         width: 60vw;
+        margin-left: 1vw;
     }
     #valorPedido{
         width: 60vw;
@@ -232,7 +235,7 @@ footer{
         height: 30px;
         width: 100px;
         margin-left: 38vw;
-        margin-top: 20vh;
+        margin-top: 15vh;
     }
 
     
@@ -288,6 +291,7 @@ footer{
     width: 40vw;
     margin-right: 10vw;
     margin-bottom: 8px;
+    margin-left: 1vw;
     
 }
 
@@ -298,33 +302,34 @@ footer{
 
 #cepCliente {
     width: 12vw;
-    margin-left: 2vw;
+    margin-left: 1vw;
     margin-top: -10px;
     margin-bottom: 8px;
     margin-right: 1vw;
     }
 
 #ruaCliente{
-    width: 30vw;
+    width: 26vw;
+    margin-left: 1vw;
     margin-bottom: 8px;
 }
 #bairroCliente{
-    width: 20vw;
+    width: 16vw;
     margin-top: -20px;
-    margin-left: 2vw;
+    margin-left: 1vw;
     margin-bottom: 8px;
-    margin-right: 3vw;
+    margin-right: 1vw;
 }
 #cidadeCliente {
-    width: 25vw;
+    width: 22vw;
     margin-bottom: 8px;
-    margin-left: 2vw;
+    margin-left: 1vw;
 }
 #emailCliente{
     width: 22vw;
 }
 #valorPedido{
-    width: 20vw;
+    width: 24vw;
     margin-left: 1vw;
 }
 .textoValor{
@@ -333,7 +338,7 @@ footer{
 .botaoCadastrar{
     height: 30px;
     width: 100px;
-    margin-left: 38vw;
+    margin-left: 30vw;
     margin-top: 20vh;
 }
 
@@ -388,29 +393,41 @@ footer{
 }
 
 /*-------- Config Consultor ------- */
+    .textoCaixa{
+    padding-left: 1px;
+}
 
     #cadastroCliente{
-    width: 400px;
+    width: 25vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
     }
 
     #codigoCliente{
-        width: 250px;
+        width: 18vw;
+        margin-left: 1vw;
     }
 
     #ruaCliente{
-        width: 400px;
+        width: 25vw;
+        margin-left: 1vw;
     }
     #bairroCliente{
-        width: 200px;
+        width: 20vw;
+        margin-right: 1vw;
+        margin-left: 1vw;
     }
     #cidadeCliente {
-        width: 200px
+        width: 20vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
     }
     #emailCliente{
-        width: 236px;
+        width: 25vw;
+        margin-right: 1vw;
     }
     #valorPedido{
-        width: 300px;
+        width: 20vw;
     }
     .textoValor{
         margin-left: 200px;
@@ -437,14 +454,7 @@ div > h2{
 .textoCaixa{
     padding-left: 5px;
 }
-.ladoEsquerdo{
-    height: 20px;
-    margin-left: 10px;
-}
-.ladoDireito{
-    height: 20px;
-    margin-left: 10px;
-}
+
 
 
 
