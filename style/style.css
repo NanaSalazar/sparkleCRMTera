@@ -81,56 +81,36 @@ body{
 
 /*------------ Config Principal ------------*/
 
-nav{
-    background-color:var(--cor3) ;
+header{
+    background-color:var(--cor3);
+    width: 100vw;
     height: 50px;
-    padding: 5px;
+    
 }
 
-nav > a {
+header > a {
     color: white;
     text-decoration: none;
 }
 .menuPrincipal{
+    color: var(--cor3);
     font-family: var(--fonte0);
     font-size: 2.2em;
 }
 .sparkle{
     font-family: var(--fonte0);
-    font-size: 2.2em;
-    margin-left: 510px;
+    color: var(--cor6);
+    font-size: 2.5em;
+    margin-top: -22px;
+    text-align: center;
+    
 }
 
 .menu{
     margin-right: 80px;
 }
-.botaoMenu{
-    background-color: var(--cor1);
-    color: var(--cor3);
-    height: 40px;
-    width: 130px;
-    margin: 40px;
-    padding: 20px 5px 0px 10px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.322);
-}
-.botaoMenu > a{
-    text-decoration: none;
-    font: normal 1em Arial;
-}
 
 
-.botaoMenu:hover{
-    background-color: var(--cor3);
-    color: white;
-}
-.textoBotaoMenu{
-    text-decoration: none;
-    color: white;
-}
-.textoBotaoMenu:hover{
-    color: var(--cor6);
-}
 .caixaExibicao{
     background-color: var(--cor6);
     width: 700px;
@@ -156,7 +136,7 @@ nav > a {
 footer{
     background-color: var(--cor1);
     text-align: center;
-    width: 100%;
+    width: 100vw;
     height: 5vh;
     position: absolute;
     bottom: 0;
@@ -167,6 +147,283 @@ footer{
 .textoFooter{
     margin-top: 10px;
 }
+
+/*========== Config para Mobile =========*/
+
+@media only screen and (max-width: 568px) {
+    .menuPrincipal {
+        color: var(--cor6);
+        margin-left: 3vw;
+        
+    }
+
+    #content{
+        background-color: var(--cor6);
+        width: 90vw;
+        height: 75vh;
+        margin-left: 5vw;
+        margin-bottom: 300px;
+        display:inline-block ;
+        position: absolute; 
+        top: 100px;
+        border-radius: 5px;
+    }
+
+    .textoBotaoMenu{
+        text-decoration: none;
+        color: var(--cor0);
+    }
+
+    /*------- Consultores -----*/
+
+    div > h2{
+        color: var(--cor5);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5em;
+        text-align: center;
+        padding: 5px;
+    }
+
+    #cadastroCliente{
+        width: 60vw;
+        margin-bottom: 8px;
+        
+    }
+
+    #codigoCliente{
+        width: 60vw;
+        margin-left: 8vw;
+    }
+
+    #cepCliente {
+        width: 60vw;
+        margin-left: 15vw;
+        margin-top: -10px;
+        margin-bottom: 8px;
+        }
+
+    #ruaCliente{
+        width: 56vw;
+        margin-bottom: 8px;
+    }
+    #bairroCliente{
+        width: 60vw;
+        margin-left: 8vw;
+        margin-top: -20px;
+        margin-left: 13vw;
+        margin-bottom: 8px;
+    }
+    #cidadeCliente {
+        width: 60vw;
+        margin-bottom: 8px;
+        margin-left: 12vw;
+    }
+    #emailCliente{
+        width: 60vw;
+    }
+    #valorPedido{
+        width: 60vw;
+        margin-left: 8vw;
+    }
+    .textoValor{
+        margin-left: 5px;
+    }
+    .botaoCadastrar{
+        height: 30px;
+        width: 100px;
+        margin-left: 38vw;
+        margin-top: 20vh;
+    }
+
+    
+    
+}
+
+/*=============== Config para Ipad/Tablet ============ */
+
+@media only screen and (min-width: 600px) {
+    #content{
+        background-color: var(--cor6);
+        width: 68vw;
+        height: 70vh;
+        margin-left: 280px;
+        margin-bottom: 300px;
+        display:inline-block ;
+        position: absolute; 
+        top: 100px;
+        border-radius: 5px;
+    }
+
+    .botaoMenu{
+        background-color: var(--cor1);
+        color: var(--cor3);
+        height: 40px;
+        width: 130px;
+        margin: 40px;
+        padding: 20px 5px 0px 10px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.322);
+    }
+
+    .botaoMenu > a{
+        text-decoration: none;
+        font: normal 1em Arial;
+    }
+
+    .botaoMenu:hover{
+        background-color: var(--cor3);
+        color: white;
+    }
+    .textoBotaoMenu{
+        text-decoration: none;
+        color: white;
+    }
+    .textoBotaoMenu:hover{
+        color: var(--cor6);
+
+}
+/*--------- Consultores ---------*/
+
+#cadastroCliente{
+    width: 40vw;
+    margin-right: 10vw;
+    margin-bottom: 8px;
+    
+}
+
+#codigoCliente{
+    width: 40vw;
+    margin-left: 4vw;
+}
+
+#cepCliente {
+    width: 12vw;
+    margin-left: 2vw;
+    margin-top: -10px;
+    margin-bottom: 8px;
+    margin-right: 1vw;
+    }
+
+#ruaCliente{
+    width: 30vw;
+    margin-bottom: 8px;
+}
+#bairroCliente{
+    width: 20vw;
+    margin-top: -20px;
+    margin-left: 2vw;
+    margin-bottom: 8px;
+    margin-right: 3vw;
+}
+#cidadeCliente {
+    width: 25vw;
+    margin-bottom: 8px;
+    margin-left: 2vw;
+}
+#emailCliente{
+    width: 22vw;
+}
+#valorPedido{
+    width: 20vw;
+    margin-left: 1vw;
+}
+.textoValor{
+    margin-left: 5px;
+}
+.botaoCadastrar{
+    height: 30px;
+    width: 100px;
+    margin-left: 38vw;
+    margin-top: 20vh;
+}
+
+
+
+}
+
+
+
+/*============= Config para Desktop ============*/
+
+@media only screen and (min-width: 1200px) {
+    #content{
+        background-color: var(--cor6);
+        width: 70vw;
+        height: 70vh;
+        margin-left: 280px;
+        margin-bottom: 300px;
+        display:inline-block ;
+        position: absolute; 
+        top: 100px;
+        border-radius: 5px;
+    }
+
+    .botaoMenu{
+        background-color: var(--cor1);
+        color: var(--cor3);
+        height: 40px;
+        width: 130px;
+        margin: 40px;
+        padding: 20px 5px 0px 10px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.322);
+    }
+
+    .botaoMenu > a{
+        text-decoration: none;
+        font: normal 1em Arial;
+    }
+
+    .botaoMenu:hover{
+        background-color: var(--cor3);
+        color: white;
+    }
+    .textoBotaoMenu{
+        text-decoration: none;
+        color: white;
+    }
+    .textoBotaoMenu:hover{
+        color: var(--cor6);
+
+}
+
+/*-------- Config Consultor ------- */
+
+    #cadastroCliente{
+    width: 400px;
+    }
+
+    #codigoCliente{
+        width: 250px;
+    }
+
+    #ruaCliente{
+        width: 400px;
+    }
+    #bairroCliente{
+        width: 200px;
+    }
+    #cidadeCliente {
+        width: 200px
+    }
+    #emailCliente{
+        width: 236px;
+    }
+    #valorPedido{
+        width: 300px;
+    }
+    .textoValor{
+        margin-left: 200px;
+    }
+    .botaoCadastrar{
+        height: 30px;
+        width: 100px;
+        margin-left: 420px;
+        margin-top: 50px;
+    }
+
+}
+
 /*-----Config Página Consultores ------- */
 
 div > h2{
@@ -188,36 +445,15 @@ div > h2{
     height: 20px;
     margin-left: 10px;
 }
-#cadastroCliente{
-    width: 300px;
-}
-#ruaCliente{
-    width: 400px;
-}
-#bairroCliente{
-    width: 200px;
-}
-#cidadeCliente {
-    width: 200px
-}
-#codigoCliente{
-    width: 250px;
-}
-#emailCliente{
-    width: 236px;
-}
-.textoValor{
-    margin-left: 200px;
-}
-#valorPedido{
-    width: 300px;
-}
-.botaoCadastrar{
-    height: 30px;
-    width: 100px;
-    margin-left: 420px;
-    margin-top: 50px;
-}
+
+
+
+
+
+
+
+
+
 #clienteAprova{
     background-color: rgb(243, 243, 169);
     width: 230px;
