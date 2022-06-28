@@ -313,6 +313,9 @@ footer{
     margin-left: 1vw;
     margin-bottom: 8px;
 }
+#numeroCliente {
+    width: 8vw;
+}
 #bairroCliente{
     width: 16vw;
     margin-top: -20px;
@@ -322,6 +325,11 @@ footer{
 }
 #cidadeCliente {
     width: 22vw;
+    margin-bottom: 8px;
+    margin-left: 1vw;
+}
+#ufCliente {
+    width: 6vw ;
     margin-bottom: 8px;
     margin-left: 1vw;
 }
